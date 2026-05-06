@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Server runtime artifacts
+server/results/
+*.log
+uvicorn.log
+
+# Secrets / env files
+.env
+*.env
+
+# Unity project (excluded from this repo - hosted separately)
+unity_project/
+unity_project.zip
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+UserSettings/
+
+# Build artifacts
+*.apk
+*.aab
+
+# Large media (host on Releases / external storage)
+*.mp4
+*.mov
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
